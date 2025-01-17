@@ -6,14 +6,13 @@
     font-size: normal;
     font-weight: normal;
 }
-
 :root{
     --corCEscura: #12110F;
-    --corCClara: #BFBFBF;
-    --corCMedia: #737373;
+    --corCClara: #7e7e7ed2;
+    --corCMedia: #585858;
     --corLEscura: #fda615;
     --corLClara: #ffffad;
-    --corLMedia: #fed261;
+    --corLMedia: #ffc444;
 }
 h2{
     margin: 0;
@@ -24,7 +23,6 @@ body{
 }
 header div{
     background-color: var(--corCEscura);
-    color: white;
     height: 185px;
     text-align: center;
 }
@@ -38,15 +36,19 @@ header a.menu{
     margin: 0px 20px 10px 20px;
     font-size: 1.3em;
 }
+header a:hover{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    color: white;
+}
 main div{
-    text-align: center;
     margin: auto;
 }
 div.inicio{
-    background-color: var(--corCMedia);
+    background-image: linear-gradient(to bottom, var(--corCMedia)90%, var(--corLClara));
     max-width: 1600px;
     text-align: left;
-    height: 762px;
+    height: 900px;
 }
 div.inicio strong{
     background-color: var(--corLEscura);
@@ -57,7 +59,7 @@ div.inicio h1{
     margin: 0;
     font-family: 'consola', serif;
     font-size: 4em;
-    padding: 220px 0px 170px 120px;
+    padding: 220px 0px 135px 120px;
     
 }
 div.inicio a{
@@ -76,9 +78,32 @@ div.inicio a:hover{
     background-color: white;
 }
 div.moveis{
-    background-color: var(--corLMedia);
+    background-image: linear-gradient(to top, var(--corLMedia)60%, var(--corLClara)100%);
     max-width: 1600px;
+    height: 1175px;
+    text-align: center;
+}
+div.moveis h2{
+    padding: 300px 50px;
+    text-align: left;
+    font-family: "Bebas Neue", serif;
+    font-size: 6em;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    color: white;
 }
 footer{
     background-color: var(--corCEscura);
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    color: white;
+    text-align: center;
+    height: 45px;
+}
+footer p{
+    margin: 3px;
+}
+footer span{
+    font-style: italic;
+    font-size: 9pt;
 }
