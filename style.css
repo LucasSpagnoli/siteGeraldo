@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Playwrite+VN:wght@100..400&family=Rajdhani&display=swap');
+@font-face {
+    font-family: 'consola';
+    src: url('mídia/ConsolaMono-Book.ttf') format('truetype');
+    font-size: normal;
+    font-weight: normal;
+}
+
+:root{
+    --corCEscura: #12110F;
+    --corCClara: #BFBFBF;
+    --corCMedia: #737373;
+    --corLEscura: #fda615;
+    --corLClara: #ffffad;
+    --corLMedia: #fed261;
+}
+h2{
+    margin: 0;
+}
+body{
+    background-color: var(--corCClara);
+    margin: 0;
+}
+header div{
+    background-color: var(--corCEscura);
+    color: white;
+    height: 185px;
+    text-align: center;
+}
+header img{
+    margin-right: 25px;
+}
+header a.menu{
+    font-family: "Bree Serif", serif;
+    text-decoration: none;
+    color: var(--corLEscura);
+    margin: 0px 20px 10px 20px;
+    font-size: 1.3em;
+}
+main div{
+    text-align: center;
+    margin: auto;
+}
+div.inicio{
+    background-color: var(--corCMedia);
+    max-width: 1600px;
+    text-align: left;
+    height: 762px;
+}
+div.inicio strong{
+    background-color: var(--corLEscura);
+    color: black;
+    margin: 0px -10px 0px -5px;
+}
+div.inicio h1{
+    margin: 0;
+    font-family: 'consola', serif;
+    font-size: 4em;
+    padding: 220px 0px 170px 120px;
+    
+}
+div.inicio a{
+    margin-left: 370px;
+    text-decoration: none;
+    text-decoration: underline;
+    color: var(--corLEscura);
+    font-size: 1.6em;
+    padding: 0px 5px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    font-family: 'consola', serif;
+}
+div.inicio a:hover{
+    text-decoration: none;
+    transition-duration: 0.2s;
+    background-color: white;
+}
+div.moveis{
+    background-color: var(--corLMedia);
+    max-width: 1600px;
+}
+footer{
+    background-color: var(--corCEscura);
+}
