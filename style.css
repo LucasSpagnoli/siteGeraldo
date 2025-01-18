@@ -17,9 +17,16 @@
 h2{
     margin: 0;
 }
+h3{
+    font-family: "Bree Serif", serif;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    margin-top: 60px;
+}
 body{
     background-color: var(--corCClara);
-    margin: 0;
+    margin: 0%;
 }
 header div{
     background-color: var(--corCEscura);
@@ -45,7 +52,7 @@ main div{
     margin: auto;
 }
 div.inicio{
-    background-image: linear-gradient(to bottom, var(--corCMedia)90%, var(--corLClara));
+    background-image: linear-gradient(to bottom, var(--corCMedia)95%, var(--corLMedia));
     max-width: 1600px;
     text-align: left;
     height: 900px;
@@ -59,11 +66,11 @@ div.inicio h1{
     margin: 0;
     font-family: 'consola', serif;
     font-size: 4em;
-    padding: 220px 0px 135px 120px;
+    padding: 220px 0px 135px 60px;
     
 }
 div.inicio a{
-    margin-left: 370px;
+    margin-left: 200px;
     text-decoration: none;
     text-decoration: underline;
     color: var(--corLEscura);
@@ -75,21 +82,30 @@ div.inicio a{
 div.inicio a:hover{
     text-decoration: none;
     transition-duration: 0.2s;
-    background-color: white;
+    background-color: var(--corLEscura);
+    color: black;
 }
 div.moveis{
-    background-image: linear-gradient(to top, var(--corLMedia)60%, var(--corLClara)100%);
+    background-image: linear-gradient(to top, var(--corLEscura)60%, var(--corLMedia)100%);
     max-width: 1600px;
-    height: 1175px;
     text-align: center;
+    padding-bottom: 20px;
 }
 div.moveis h2{
-    padding: 300px 50px;
+    padding: 300px 50px 100px 50px;
     text-align: left;
     font-family: "Bebas Neue", serif;
     font-size: 6em;
     text-shadow: 2px 2px 8px rgb(0, 0, 0);
     color: white;
+}
+div.moveis h2#c{
+    padding-top: 100px;
+}
+img.redes{
+    max-width: 40px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px black;
 }
 footer{
     background-color: var(--corCEscura);
@@ -98,7 +114,7 @@ footer{
     font-size: 13pt;
     color: white;
     text-align: center;
-    height: 45px;
+    height: 55px;
 }
 footer p{
     margin: 3px;
